@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "@types/pg": "^8.16.0",
+    "prisma": "^7.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "name": "blog-app-learn-and-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.3.0",
+    "@prisma/client": "^7.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "esbuild": "^0.27.2",
+    "express": "^5.2.1",
+    "get-tsconfig": "^4.13.0",
+    "pg": "^8.17.2",
+    "resolve-pkg-maps": "^1.0.0",
+    "undici-types": "^7.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salauddin2k3/blog-app-learn-and-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/salauddin2k3/blog-app-learn-and-practice/issues"
+  },
+  "homepage": "https://github.com/salauddin2k3/blog-app-learn-and-practice#readme"
+}
