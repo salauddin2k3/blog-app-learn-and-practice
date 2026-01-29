@@ -5,7 +5,7 @@ const app : Application = express();
 
 app.use(express.json());
 
-app.use("/testPost", PostRouter);
+app.use("/posts", PostRouter);
 
 app.get("/", (req, res) => {
     res.send("Hello Salah!")
