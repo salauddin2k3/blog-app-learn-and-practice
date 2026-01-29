@@ -8,7 +8,7 @@ const createPost = async (data: Omit<Post, "id" | "createdAt" | "updatedAt">)=> 
     })
 
     return result;
-}
+};
 
 
 export const postService = {
